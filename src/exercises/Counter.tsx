@@ -21,22 +21,22 @@ class Counter extends React.Component<IProps,IState> {
     }
 
     plusOne = () => {
-        //variável number recebe o estado number
-        let number = this.state.number;
+        //variável num recebe o estado number
+        let num = this.state.number;
 
         //variável number soma 1
-        number = number + 1;
+        num = num + 1;
 
-        //setState altera o estado number para o novo valor da variável number
-        this.setState({number: number});
+        //setState altera o estado number para o novo valor da variável num
+        this.setState({number: num});
     }
 
     minusOne = () => {
-        let number = this.state.number;
+        let num = this.state.number;
 
-        number = number - 1;
+        num = num - 1;
 
-        this.setState({number: number});
+        this.setState({number: num});
     }
 
     render() {
